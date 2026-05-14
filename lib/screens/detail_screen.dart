@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-
-
 class DetailScreen extends StatelessWidget {
-
   final String destination;
 
 
@@ -39,9 +36,9 @@ class DetailScreen extends StatelessWidget {
 
             ElevatedButton.icon(
               onPressed: () => Navigator.pop(context), 
-            icon: Icon(Icons.arrow_back),
-            label: Text('Volver'),
-            );
+              icon: Icon(Icons.arrow_back),
+              label: Text('Volver'),
+            ),
           ],
         )
       )

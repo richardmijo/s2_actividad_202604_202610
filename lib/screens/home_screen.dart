@@ -30,18 +30,19 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   final List<String> _titles = ['Inicio', 'Destinos', 'Acerca de'];
+
   final List<Widget> _screens = [
     // todo pantalla de bienvenida
     DestinationScreen(),
     AboutScreen(),
   ];
 
-  void _navigate(int index){
+  void _navigateTo(int index){
     _selectedIndex = index;
     setState(() {});
   }
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
