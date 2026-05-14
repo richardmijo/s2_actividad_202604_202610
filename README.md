@@ -1,17 +1,33 @@
-# s2_actividad_202604_202610
+# Actividad Semana 2 - Programación Móvil 📱
 
-A new Flutter project.
+Este proyecto es una aplicación de Flutter desarrollada como parte de las actividades prácticas de la asignatura de Programación Móvil.
 
-## Getting Started
+## 👤 Autor
+* **Jhandry Jaramillo** - [jhandry-jaramillo](https://github.com/richardmijo/s2_actividad_202604_202610/tree/jhandry-jaramillo)
 
-This project is a starting point for a Flutter application.
+## 🚀 Características
+* Navegación entre pantallas (Home y Detalles).
+* Interfaz moderna con componentes de Material Design.
+* Gestión de estados básica para visualización de destinos.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Instalación y Ejecución
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. **Clonar el repositorio y entrar a la rama:**
+   ```bash
+   git clone https://github.com/richardmijo/s2_actividad_202604_202610.git
+   cd s2_actividad_202604_202610
+   git checkout jhandry-jaramillo
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Instalar dependencias:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Ejecutar la aplicación:**
+   ```bash
+   flutter run
+   ```
+
+---
+*© 2026 - Universidad Internacional del Ecuador (UIDE)*
